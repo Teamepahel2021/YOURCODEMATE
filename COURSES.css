@@ -1,0 +1,100 @@
+
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+      body {
+        font-family: "Nunito Sans", sans-serif;
+        
+      }
+            .main_header {
+                color: #fff;
+        width: 98.7vw;
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))) #0a183d;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) #0a183d;}
+         .fas {
+        font-size: 40px
+      }
+      .fontnav{
+        font-size: small;
+      }
+      .animation{
+        color: rgb(255, 255, 255);
+        -webkit-animation: music 1.8s linear infinite;
+                animation: music 1.8s linear infinite;
+        -webkit-animation-direction: alternate;
+                animation-direction: alternate;
+      }
+      @-webkit-keyframes music {
+        from {
+          -webkit-transform: rotate(3deg);
+                  transform: rotate(3deg);
+        }
+        to {
+          -webkit-transform: rotate(-3deg);
+                  transform: rotate(-3deg);
+        }
+      }
+      
+      @keyframes music {
+        from {
+          -webkit-transform: rotate(3deg);
+                  transform: rotate(3deg);
+        }
+        to {
+          -webkit-transform: rotate(-3deg);
+                  transform: rotate(-3deg);
+        }
+      }
+      .navbar-brand:hover {
+        -webkit-filter: drop-shadow(0 1.5rem 1rem rgba(255, 255, 255, 0.5));
+                filter: drop-shadow(0 1.5rem 1rem rgba(255, 255, 255, 0.5));
+      }
+      
+      
+      .main_header .my_btn {
+        padding: 1rem 3.2rem;
+        background: #b71540;
+        line-height: 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: capitalize;
+        color:#fff;
+        border: none;
+        -webkit-box-shadow: 0rem 0.8rem 1.5rem rgba(0, 0, 0, 0.1);
+                box-shadow: 0rem 0.8rem 1.5rem rgba(0, 0, 0, 0.1);
+        -webkit-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        border-radius: 4.5rem;
+        outline: none;
+        margin-right: 1rem;
+      }
+      
+      .main_header .my_btn:hover {
+        background-color: #fff;
+        -webkit-box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+                box-shadow: 0rem 1.5rem 2rem rgba(255, 255, 157, 0.4);
+        color: #b71540;
+        -webkit-transform: translateY(-0.7rem);
+                transform: translateY(-0.7rem);
+      }
+      .main_header .navbar-nav {
+        padding-left: 3rem;
+      }
+      
+      .main_header .navbar-nav .nav-item .nav-link {
+        font-size: 1rem;
+        color: #fff;
+        text-transform: uppercase;
+        padding-right: 1rem;
+      }
+      
+      .main_header .navbar-nav .nav-item:last-child > .nav-link {
+        padding-right: 0;
+      }
+      
+      .main_header .nav-item:hover > .nav-link,
+      .main_header .navbar-brand:hover,
+      .main_header .navbar-brand:hover > .fas {
+        color: #b71540;
+      }
+      
